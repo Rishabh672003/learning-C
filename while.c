@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(){
-  int a = 10;
-  while (a < 9) {
-    puts("hello");
+int main() {
+  int x = 0;
+  int y = 0;
+  while (x < 5) {
+    y = x - y;
+    printf("%i%i", x, y);
+    x = x + 1;
   }
-
 }
